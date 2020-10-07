@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0319928E252CCD46005101BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319928D252CCD46005101BB /* AppDelegate.swift */; };
 		03199290252CCD47005101BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319928F252CCD47005101BB /* SceneDelegate.swift */; };
-		03199292252CCD47005101BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03199291252CCD47005101BB /* ViewController.swift */; };
+		03199292252CCD47005101BB /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03199291252CCD47005101BB /* EmployeeDetailViewController.swift */; };
 		03199295252CCD47005101BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03199293252CCD47005101BB /* Main.storyboard */; };
 		03199297252CCD4E005101BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03199296252CCD4E005101BB /* Assets.xcassets */; };
 		0319929A252CCD4E005101BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03199298252CCD4E005101BB /* LaunchScreen.storyboard */; };
+		031992A6252CCE27005101BB /* AddEmplyeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031992A5252CCE27005101BB /* AddEmplyeeDetailsViewController.swift */; };
+		031992A8252CD670005101BB /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031992A7252CD670005101BB /* Employee.swift */; };
+		03E5C576252D768200DFAA63 /* EmployeeDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5C574252D768200DFAA63 /* EmployeeDetailsTableViewCell.swift */; };
+		03E5C577252D768200DFAA63 /* EmployeeDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E5C575252D768200DFAA63 /* EmployeeDetailsTableViewCell.xib */; };
+		03E5C57A252D9F3A00DFAA63 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5C579252D9F3A00DFAA63 /* UIView+Extension.swift */; };
+		03E5C57C252DA5F000DFAA63 /* RealmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5C57B252DA5F000DFAA63 /* RealmViewModel.swift */; };
+		03E5C57E252DAC3D00DFAA63 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5C57D252DAC3D00DFAA63 /* UIViewController+Extension.swift */; };
+		B2C2BD996C8ABE78C6A44117 /* Pods_RealmSwift_with_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75403CAEA30124D1C618561A /* Pods_RealmSwift_with_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0319928A252CCD46005101BB /* RealmSwift with MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmSwift with MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0319928D252CCD46005101BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0319928F252CCD47005101BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03199291252CCD47005101BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03199291252CCD47005101BB /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
 		03199294252CCD47005101BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03199296252CCD4E005101BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03199299252CCD4E005101BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0319929B252CCD4E005101BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031992A5252CCE27005101BB /* AddEmplyeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmplyeeDetailsViewController.swift; sourceTree = "<group>"; };
+		031992A7252CD670005101BB /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		03E5C574252D768200DFAA63 /* EmployeeDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		03E5C575252D768200DFAA63 /* EmployeeDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		03E5C579252D9F3A00DFAA63 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		03E5C57B252DA5F000DFAA63 /* RealmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewModel.swift; sourceTree = "<group>"; };
+		03E5C57D252DAC3D00DFAA63 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		59C60E052A4EFD96662F0F72 /* Pods-RealmSwift with MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwift with MVVM.release.xcconfig"; path = "Target Support Files/Pods-RealmSwift with MVVM/Pods-RealmSwift with MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		75403CAEA30124D1C618561A /* Pods_RealmSwift_with_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmSwift_with_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8866EDFE9184C2B03926AE3C /* Pods-RealmSwift with MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwift with MVVM.debug.xcconfig"; path = "Target Support Files/Pods-RealmSwift with MVVM/Pods-RealmSwift with MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C2BD996C8ABE78C6A44117 /* Pods_RealmSwift_with_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				0319928C252CCD46005101BB /* RealmSwift with MVVM */,
 				0319928B252CCD46005101BB /* Products */,
+				5E5A769736E39BC3D0840BA0 /* Pods */,
+				ED67D067CB4205AB669978CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,87 @@
 		0319928C252CCD46005101BB /* RealmSwift with MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				0319928D252CCD46005101BB /* AppDelegate.swift */,
-				0319928F252CCD47005101BB /* SceneDelegate.swift */,
-				03199291252CCD47005101BB /* ViewController.swift */,
+				03E5C578252D9F0B00DFAA63 /* Extension */,
+				03E5C571252D762600DFAA63 /* Cell */,
+				031992A4252CCD79005101BB /* ViewModels */,
+				031992A3252CCD73005101BB /* Models */,
+				031992A2252CCD65005101BB /* Delegates */,
+				031992A1252CCD58005101BB /* Controllers */,
 				03199293252CCD47005101BB /* Main.storyboard */,
 				03199296252CCD4E005101BB /* Assets.xcassets */,
 				03199298252CCD4E005101BB /* LaunchScreen.storyboard */,
 				0319929B252CCD4E005101BB /* Info.plist */,
 			);
 			path = "RealmSwift with MVVM";
+			sourceTree = "<group>";
+		};
+		031992A1252CCD58005101BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03199291252CCD47005101BB /* EmployeeDetailViewController.swift */,
+				031992A5252CCE27005101BB /* AddEmplyeeDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		031992A2252CCD65005101BB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				0319928D252CCD46005101BB /* AppDelegate.swift */,
+				0319928F252CCD47005101BB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		031992A3252CCD73005101BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				031992A7252CD670005101BB /* Employee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		031992A4252CCD79005101BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				03E5C57B252DA5F000DFAA63 /* RealmViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		03E5C571252D762600DFAA63 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				03E5C574252D768200DFAA63 /* EmployeeDetailsTableViewCell.swift */,
+				03E5C575252D768200DFAA63 /* EmployeeDetailsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		03E5C578252D9F0B00DFAA63 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03E5C579252D9F3A00DFAA63 /* UIView+Extension.swift */,
+				03E5C57D252DAC3D00DFAA63 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5E5A769736E39BC3D0840BA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8866EDFE9184C2B03926AE3C /* Pods-RealmSwift with MVVM.debug.xcconfig */,
+				59C60E052A4EFD96662F0F72 /* Pods-RealmSwift with MVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED67D067CB4205AB669978CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75403CAEA30124D1C618561A /* Pods_RealmSwift_with_MVVM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0319929E252CCD4E005101BB /* Build configuration list for PBXNativeTarget "RealmSwift with MVVM" */;
 			buildPhases = (
+				B4977068FA0F6B1946DA63D2 /* [CP] Check Pods Manifest.lock */,
 				03199286252CCD46005101BB /* Sources */,
 				03199287252CCD46005101BB /* Frameworks */,
 				03199288252CCD46005101BB /* Resources */,
+				CA0B7715755FD8BA61B76EB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E5C577252D768200DFAA63 /* EmployeeDetailsTableViewCell.xib in Resources */,
 				0319929A252CCD4E005101BB /* LaunchScreen.storyboard in Resources */,
 				03199297252CCD4E005101BB /* Assets.xcassets in Resources */,
 				03199295252CCD47005101BB /* Main.storyboard in Resources */,
@@ -133,14 +229,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4977068FA0F6B1946DA63D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmSwift with MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0B7715755FD8BA61B76EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmSwift with MVVM/Pods-RealmSwift with MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmSwift with MVVM/Pods-RealmSwift with MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmSwift with MVVM/Pods-RealmSwift with MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03199286252CCD46005101BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03199292252CCD47005101BB /* ViewController.swift in Sources */,
+				03E5C57E252DAC3D00DFAA63 /* UIViewController+Extension.swift in Sources */,
+				03E5C576252D768200DFAA63 /* EmployeeDetailsTableViewCell.swift in Sources */,
+				03E5C57A252D9F3A00DFAA63 /* UIView+Extension.swift in Sources */,
+				03199292252CCD47005101BB /* EmployeeDetailViewController.swift in Sources */,
 				0319928E252CCD46005101BB /* AppDelegate.swift in Sources */,
 				03199290252CCD47005101BB /* SceneDelegate.swift in Sources */,
+				031992A8252CD670005101BB /* Employee.swift in Sources */,
+				03E5C57C252DA5F000DFAA63 /* RealmViewModel.swift in Sources */,
+				031992A6252CCE27005101BB /* AddEmplyeeDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +426,7 @@
 		};
 		0319929F252CCD4E005101BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8866EDFE9184C2B03926AE3C /* Pods-RealmSwift with MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +444,7 @@
 		};
 		031992A0252CCD4E005101BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C60E052A4EFD96662F0F72 /* Pods-RealmSwift with MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
